@@ -1,6 +1,9 @@
-require File.dirname(__FILE__) + '/money/money_parser'
-require File.dirname(__FILE__) + '/money/money'
-require File.dirname(__FILE__) + '/money/accounting_money_parser'
-require File.dirname(__FILE__) + '/money/core_extensions'
-require File.dirname(__FILE__) + '/money_accessor'
-require File.dirname(__FILE__) + '/money_column' if defined?(Rails)
+require 'bigdecimal'
+require 'bigdecimal/util'
+require 'money/money_parser'
+require 'money/money'
+require 'money/currency'
+require 'money/accounting_money_parser'
+require 'money/core_extensions'
+require 'money_accessor'
+require 'money_column' if defined?(Rails)
