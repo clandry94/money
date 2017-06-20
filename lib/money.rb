@@ -3,6 +3,7 @@ require 'bigdecimal/util'
 require 'money/money_parser'
 require 'money/money'
 require 'money/currency'
+require "money/deprecations"
 require 'money/accounting_money_parser'
 require 'money/core_extensions'
 require 'money_accessor'
